@@ -4,7 +4,7 @@
 @theme inline {
   --color-toxic-purple: #8e44ad;
   --color-toxic: #00ff9d;
-  --color-dark-matter:  #1e1e2f;
+  --color-dark-matter: #1e1e2f;
   --font-rickMorty: 'fontMorty', sans-serif;
 }
 
@@ -19,9 +19,11 @@
 
 body {
   background-color: var(--color-dark-matter);
+  
 }
 
 
 .hero {
-  background-image: repeating-linear-gradient(113deg, rgb(30,30,47) 0px, rgb(30,30,47) 23px,transparent 23px, transparent 25px),repeating-linear-gradient(64deg, rgb(30,30,47) 0px, rgb(30,30,47) 23px,transparent 23px, transparent 25px),repeating-linear-gradient(330deg, rgb(30,30,47) 0px, rgb(30,30,47) 23px,transparent 23px, transparent 25px),linear-gradient(90deg, rgb(241,196,15),rgb(142,68,173));
+  background-image: repeating-linear-gradient(113deg, rgb(30, 30, 47) 0px, rgb(30, 30, 47) 23px, transparent 23px, transparent 25px), repeating-linear-gradient(64deg, rgb(30, 30, 47) 0px, rgb(30, 30, 47) 23px, transparent 23px, transparent 25px), repeating-linear-gradient(330deg, rgb(30, 30, 47) 0px, rgb(30, 30, 47) 23px, transparent 23px, transparent 25px), linear-gradient(90deg, rgb(241, 196, 15), rgb(142, 68, 173));
 }
+

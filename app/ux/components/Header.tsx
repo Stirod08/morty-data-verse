@@ -32,7 +32,7 @@ export default function Header() {
         </nav>
 
         <button
-          className="md:hidden text-white"
+          className="md:hidden text-toxic"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle Menu"
         >
