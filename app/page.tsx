@@ -1,8 +1,5 @@
-'use client'
-import { useState } from "react";
-import Hero from "./components/Hero";
-import Header from "./components/Header";
-import BotonPrueba from "./Probando/BotonPrueba";
+import Hero from "./ux/principal/Hero";
+import Header from "./ux/components/Header";
 
 function Alerta() {
   return (
@@ -13,8 +10,9 @@ function Alerta() {
 }
 
 export default function Home() {  
-
+ 
   return (
+    
     <>
       <Header />
       <Hero />

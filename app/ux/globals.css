@@ -1,12 +1,5 @@
 @import "tailwindcss";
 
-:root {
-  --color-portal-green: #00ff9d;   /* Botones, enlaces activos */
-  --color-toxic-purple: #8e44ad;   /* Headers, acentos visuales */
-  --color-plasma-blue:  #3498db;   /* Backgrounds secundarios */
-  --color-dark-matter:  #1e1e2f;   /* Fondo principal */
-  --color-cyber-yellow: #f1c40f;   /* Highlights, estados */  
-}
 
 @theme inline {
   --color-toxic-purple: #8e44ad;
